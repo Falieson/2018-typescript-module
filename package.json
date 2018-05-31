@@ -1,0 +1,30 @@
+{
+  "name": "2018-ts-module",
+  "version": "1.0.0",
+  "description": "TGRStack TS-Module w/ Declarations, WebPack, and Opinions.",
+  "main": "dist/index.js",
+  "typings": "./dist/index",
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "2.6.2",
+    "ts-node": "6.0.5",
+    "typescript": "2.9.1"
+  },
+  "scripts": {
+    "build": "rimraf dist/ && tsc",
+    "start:build": "node dist/index.js",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Falieson/2018-typescript-module.git"
+  },
+  "keywords": [],
+  "author": "Florian Mettetal <florian.mettetal@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Falieson/2018-typescript-module/issues"
+  },
+  "homepage": "https://github.com/Falieson/2018-typescript-module#readme"
+}
