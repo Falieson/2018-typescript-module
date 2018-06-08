@@ -6,15 +6,32 @@
   "typings": "./dist/index",
   "dependencies": {},
   "devDependencies": {
+    "commitizen": "2.10.1",
+    "cz-emoji": "1.1.1",
     "rimraf": "2.6.2",
     "ts-node": "6.0.5",
     "typescript": "2.9.1"
   },
   "scripts": {
     "build": "rimraf dist/ && tsc",
+    "commit": "git-cz",
+    "commit:retry": "git-cz --retry",
+    "commit:noverify": "git-cz --no-verify",
     "start:build": "node dist/index.js",
     "start": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "config": {
+    "cz-emoji": {
+      "scopes": [
+        "$user",
+        "$dev",
+        "$ops"
+      ]
+    },
+    "commitizen": {
+      "path": "./node_modules/cz-emoji"
+    }
   },
   "repository": {
     "type": "git",
