@@ -8,18 +8,14 @@
   "devDependencies": {
     "commitizen": "2.10.1",
     "cz-emoji": "1.1.1",
-    "rimraf": "2.6.2",
+    "nps": "5.9.0",
+    "nps-utils": "1.5.0",
     "ts-node": "6.0.5",
     "typescript": "2.9.1"
   },
   "scripts": {
-    "build": "rimraf dist/ && tsc",
-    "commit": "git-cz",
-    "commit:retry": "git-cz --retry",
-    "commit:noverify": "git-cz --no-verify",
-    "start:build": "node dist/index.js",
-    "start": "ts-node src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nps",
+    "test": "nps test"
   },
   "config": {
     "cz-emoji": {
