@@ -10,6 +10,7 @@
     "cz-emoji": "1.1.1",
     "nps": "5.9.0",
     "nps-utils": "1.5.0",
+    "standard-version": "4.4.0",
     "ts-node": "6.0.5",
     "typescript": "2.9.1"
   },
