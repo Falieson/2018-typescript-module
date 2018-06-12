@@ -2,14 +2,14 @@
   <h1 align='center'>Typescript Module w/ Definitions (TGRStack)</h1>
 </p>
 
-<!-- [![TypeScript](https://img.shields.io/badge/TypeScript-2.8.1-blue.svg?style=flat-square)](https://github.com/Microsoft/TypeScript) -->
+[![TypeScript](https://img.shields.io/badge/TypeScript-2.8.1-blue.svg?style=flat-square)](https://github.com/Microsoft/TypeScript)
 <!-- [![styled with TSLint](https://img.shields.io/badge/styled_with-TSLint-ff69b4.svg?style=flat-square)](https://github.com/palantir/tslint/) -->
 <!-- [![WebPack](https://img.shields.io/badge/WebPack-4.5.0-blue.svg?style=flat-square)](https://github.com/Microsoft/TypeScript) -->
 [![Node](https://img.shields.io/badge/Node-8.11.2-blue.svg?style=flat-square)](https://github.com/Microsoft/TypeScript)
 
-<!-- [![NPS friendly](https://img.shields.io/badge/NPS-friendly-brightgreen.svg?style=flat-square)](https://github.com/kentcdodds/nps) -->
-<!-- [![Commitizen friendly](https://img.shields.io/badge/Commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/) -->
-<!-- [![Semver friendly](https://img.shields.io/badge/semver-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/) -->
+[![NPS friendly](https://img.shields.io/badge/NPS-friendly-brightgreen.svg?style=flat-square)](https://github.com/kentcdodds/nps)
+[![Commitizen friendly](https://img.shields.io/badge/Commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
+[![Semver friendly](https://img.shields.io/badge/semver-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
 
 ## About
 
@@ -33,7 +33,7 @@ This starter kit is a launching point for ts/js module development (not React). 
 - [ ] 🚀  ES2018+ support syntax that is stage-3 or later in the TC39 process.
 - [ ] 🔥  Hot development restarts dev-server when your src changes
 - [ ] 🎛  Preconfigured to support development and optimized production builds
-- [ ] 🎶  `typescript` incremental returns reducing development bugs
+- [x] 🎶  `typescript` incremental returns reducing development bugs
 - [ ] 🚦  `tslint` configured for strict, consistent, code style
 
 ### Tests
@@ -53,11 +53,11 @@ This starter kit is a launching point for ts/js module development (not React). 
 
 ### Utils
 
-- [ ] 🎮  `nps` node-package-scripts removes the limitation of package.json enabling JS & //comments .  Modify `/package-scripts.js` and use `nps <command>` instead of `npm run <command>`.
-- [ ] 🙌  `commitizen` to help us generate beautifully formatted and consistent commit messages.
-- [ ] 😹  `cz-emoji` is a plugin for commitizen that adds emoji to the commit template.
-- [ ] 🏆  `standard-version` is a replacement for `npm version` with automatic CHANGELOG generation
-- [ ] ✅  `validate-commit-msg` validates commit messages to follow commitizen patterns
+- [x] 🎮  `nps` node-package-scripts removes the limitation of package.json enabling JS & //comments .  Modify `/package-scripts.js` and use `nps <command>` instead of `npm run <command>`.
+- [x] 🙌  `commitizen` to help us generate beautifully formatted and consistent commit messages.
+- [x] 😹  `cz-emoji` is a plugin for commitizen that adds emoji to the commit template.
+- [x] 🏆  `standard-version` is a replacement for `npm version` with automatic CHANGELOG generation
+- [ ] ✅  `commitlint` validates commit messages to follow commitizen patterns
 
 ## Getting started
 
