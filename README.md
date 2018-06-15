@@ -45,7 +45,7 @@ This starter kit is a launching point for ts/js module development (not React). 
 
 - [ ] 📦  All source is bundled using Webpack v4
 - [ ] 🌟  webpack for dev, prod, common
-- [ ] 🚦   ts-loader for compiling typescript
+- [ ] 🚦  `ts-loader` for compiling typescript
 - [ ] 💦  babel-loader for additional polyfills (browser support)
 - [ ] 😎  HappyPack
 - [ ] 🤖  Auto generated Vendor DLL for smooth development experiences
