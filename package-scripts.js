@@ -121,6 +121,18 @@ const shortcuts = {
     default: 'nps build start.build',
     description: 'Build the code and run the build.',
   },
+  c: {
+    default: 'nps commit',
+    description: 'Start a commit!',
+  },
+  cn: {
+    default: 'nps commit.zen.noverify',
+    description: 'Skip all pre-commit ops.',
+  },
+  cr: {
+    default: 'nps commit.zen.retry',
+    description: 'Retry last commit.',
+  },
   // FIXME: w/ a prompt. We don't want to run this accidentally!
   //   https://stackoverflow.com/q/50770212/604950
   // r: {
@@ -129,8 +141,8 @@ const shortcuts = {
   // },
 }
 
-Object.assign(scripts, shortcuts) // appends shortcuts object to the scripts object
+const finalScripts = Object.assign({}, shortcuts, scripts,) // appends scripts to shortcuts so they are grepp'd first
 
 module.exports = {
-  scripts
+  scripts: finalScripts,
 }
